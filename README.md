@@ -7,11 +7,11 @@
   
 * We design the ablative experiments to prove that the grid-based prediction mechanism of detection task is more related to that of semantic segmentation task, which is believed to provide reference for other relevant multi-task learning research works.
 
-### Results
+### Logistics text recognition Result
 
-#### Logistics text recognition Result
+#### Example one, the area inside the blue box is the detected text region in the left side, the left side is the detected logistics sheet image, and the right side is the recognition result corresponding to the text area one-to-one. Although the image is blurred, but our model gives the correct results.
 
-![Results](1.jpg)
+![](Results/1.jpg)
 
 #### Drivable Area Segmentation Result
 
