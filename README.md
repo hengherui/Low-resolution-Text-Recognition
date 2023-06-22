@@ -18,7 +18,7 @@ We provide datasets for [training](https://pan.baidu.com/s/1BMYb93u4gW_3GJdjBWSC
 ### Logistics text recognition Result
 
 #### Example one, the area inside the blue box is the detected text region in the left side, the left side is the detected logistics sheet image, and the right side is the recognition result corresponding to the text area one-to-one. Although the image is blurred, but our model gives the correct results.
-<img src="https://github.com/hengherui/Low-resolution-Text-Recognition/blob/master/Results/1.jpg" width="800px">
+<img src="https://github.com/hengherui/Low-resolution-Text-Recognition/blob/master/Results/1.jpg" width="600px">
 https://github.com/hengherui/Low-resolution-Text-Recognition/blob/master/Results/1.jpg
 ![](Results/1.jpg)
 
