@@ -3,7 +3,7 @@
 
 * We put forward an efficient multi-task network that can jointly handle low-resolution text recognition. We propose a multi-task learning approach for scene text recognition, which includes a text recognition branch and a super-resolution branch. The proposed super-resolution branch, incorporating residual super-resolution units, effectively captures rich information from low-resolution features. It is utilized to generate high-resolution text features by contrastive learning between high-resolution and low-resolution features.
 
-* We conduct large number of experiments on real logistics express sheet images, which are not represented on our paper, here, we show these recognition results, and we mosaicked the sensitive information such as name and telephone num for preventing disclosure of private customer information during the presentation. We show different logistics scenes, including the blurred, tilted, dark background, low-resolution images, all these scenes can prove that our method have robustness on multi scenes of logistics express image text recognition. The details have shown from Figure 1 to Figure 13.
+* We conduct large number of experiments on real logistics express sheet images, which are not represented on our paper, here, we show these recognition results, and we mosaicked the sensitive information such as name and telephone num for preventing disclosure of private customer information during the presentation. We show different logistics scenes, including the blurred, tilted, dark background, low-resolution images, all these scenes can prove that our method have robustness on multi scenes of logistics express image text recognition. The details have shown as followed.
 
 ## training enviroment
 
