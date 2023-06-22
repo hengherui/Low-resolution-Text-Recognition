@@ -17,8 +17,18 @@ We provide datasets for [training](https://pan.baidu.com/s/1BMYb93u4gW_3GJdjBWSC
 
 ### Logistics text recognition Result
 
-#### Example one, the area inside the blue box is the detected text region in the left side, the left side is the detected logistics sheet image, and the right side is the recognition result corresponding to the text area one-to-one. Although the image is blurred, but our model gives the correct results.
+#### Example 1, the area inside the blue box is the detected text region in the left side, the left side is the detected logistics sheet image, and the right side is the recognition result corresponding to the text area one-to-one. Although the image is blurred, but our model gives the correct results.
 <img src="https://github.com/hengherui/Low-resolution-Text-Recognition/blob/master/Results/1.jpg" width="500px">
+
+#### Example 2, due to the dark light in the distribution centre, the background of the image is dark and the picture is in a tilted position, but our model can also perform well.
+<img src="https://github.com/hengherui/Low-resolution-Text-Recognition/blob/master/Results/5.jpg" width="500px">
+
+#### Example 3, the image is very dirty, but our model gives correctly results after distinguishing carefully. 
+<img src="https://github.com/hengherui/Low-resolution-Text-Recognition/blob/master/Results/12.jpg" width="500px">
+
+#### Example 4, the image is in low-resolution condition, but our method performs well and predicts correctly. 
+<img src="https://github.com/hengherui/Low-resolution-Text-Recognition/blob/master/Results/7.jpg" width="500px">
+
 
 
 ### Requirement
