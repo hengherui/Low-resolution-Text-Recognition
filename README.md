@@ -1,15 +1,24 @@
 
 ### Contributions
 
-* We put forward an efficient multi-task network that can jointly handle three crucial tasks in autonomous driving: object detection, drivable area segmentation and lane detection to save computational costs, reduce inference time as well as improve the performance of each task. Our work is the first to reach real-time on embedded devices while maintaining state-of-the-art level performance on the `BDD100K `dataset.
+* We put forward an efficient multi-task network that can jointly handle low-resolution text recognition. We propose a multi-task learning approach for scene text recognition, which includes a text recognition branch and a super-resolution branch. The proposed super-resolution branch, incorporating residual super-resolution units, effectively captures rich information from low-resolution features. It is utilized to generate high-resolution text features by contrastive learning between high-resolution and low-resolution features
 
-* We design the ablative experiments to verify the effectiveness of our multi-tasking scheme. It is proved that the three tasks can be learned jointly without tedious alternating optimization.
-  
-* We design the ablative experiments to prove that the grid-based prediction mechanism of detection task is more related to that of semantic segmentation task, which is believed to provide reference for other relevant multi-task learning research works.
+* We conduct large number of experiments on real logistics express sheet images, which are not represented on our paper, here, we show these recognition results, and we mosaicked the sensitive information such as name and telephone num for preventing disclosure of private customer information during the presentation. We show different logistics scenes, including the blurred, tilted, dark background, low-resolution images, all these scenes can prove that our method have robustness on multi scenes of logistics express image text recognition. The details have shown from Figure 1 to Figure 13.
+
+## training enviroment
+
+Tesla V100 32G memory, 8 cards.
+install required package "pip install -r requirments" 
+
+## Data preparation
+
+We give an example to construct your own datasets. Details please refer to `tools/create_svtp_lmdb.py`.
+We provide datasets for [training](https://pan.baidu.com/s/1BMYb93u4gW_3GJdjBWSCSw&shfl=sharepset) (password: wi05) and [testing](https://drive.google.com/open?id=1U4mGLlsm9Ade1-gQOyd6He5R0yiaafYJ).
 
 ### Logistics text recognition Result
 
 #### Example one, the area inside the blue box is the detected text region in the left side, the left side is the detected logistics sheet image, and the right side is the recognition result corresponding to the text area one-to-one. Although the image is blurred, but our model gives the correct results.
+<img src="https://github.com/hengherui/Low-resolution-Text-Recognition/Results/1.jpg" width="210px">
 
 ![](Results/1.jpg)
 
